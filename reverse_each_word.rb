@@ -1,5 +1,6 @@
 def reverse_each_word(string)
-  string.each do |backward|
-    backward.reverse
+  string.split(" ")
+  
+  
   end
 end
